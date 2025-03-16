@@ -7,8 +7,6 @@ import Varieties from "./modules/sections/varieties";
 import { Hero, SpotlightPreview } from "./modules/sections/hero";
 import { BuildParallaxMain } from "./modules/sections/build";
 import { CTA } from "./modules/sections/cta";
-import CodeEditor from "./modules/components/editor/CodeEditor";
-import EditorHeader from "./modules/components/editor/EditorHeader";
 import { useEffect, useState } from "react";
 import Footer from "./modules/components/global/footer";
 import { LampDemo } from "./modules/components/ui/Cta";
