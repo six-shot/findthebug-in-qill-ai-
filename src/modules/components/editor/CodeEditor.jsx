@@ -1,5 +1,4 @@
 import { useRef, useState, useEffect } from "react";
-import { Editor } from "@monaco-editor/react";
 import LanguageSelector from "./LanguageSelector";
 import Output from "./Output";
 import { CODE_SNIPPETS } from "../../../constants";
