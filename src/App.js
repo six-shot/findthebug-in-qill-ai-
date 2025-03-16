@@ -13,7 +13,7 @@ import { useEffect, useState } from "react";
 import Footer from "./modules/components/global/footer";
 import { LampDemo } from "./modules/components/ui/Cta";
 import ProductTab from "./modules/components/tab/ProductTab";
-import { Toaster } from "sonner";
+
 
 function App() {
 
