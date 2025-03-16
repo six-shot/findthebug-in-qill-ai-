@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.prime-line-divider {
+  opacity: 0.6;
+  background-image: radial-gradient(circle, #3F0EFA, #e18b3f17);
+  width: 1200px;
+  height: 1px;
+  margin-bottom: 2rem;
+}
+
+
+
+.why {
+  background: radial-gradient(
+    163.01% 160.82% at 52.92% 167.2%,
+    #000000 77.8%,
+    #262629 99.14%
+  );
+  border-radius: 50% 50% 0 0/ 100% 100% 0 0;
+}
