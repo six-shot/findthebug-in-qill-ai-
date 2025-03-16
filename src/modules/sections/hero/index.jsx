@@ -8,7 +8,6 @@ import SubHero from "../subhero";
 import Spline from "@splinetool/react-spline";
 
 export function Hero() {
-  
   return (
     <motion.div
       variants={staggerContainer}
@@ -19,10 +18,13 @@ export function Hero() {
     >
       <Navbar />
       <div className=" w-full rounded-md flex flex-col md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
-        <Spline
-          className="absolute md:top-[-20%] top-[-30%] w-full h-full z-[100] "
-          scene="https://prod.spline.design/VRcNvmRTWqS74Bbe/scene.splinecode"
-        />
+        <iframe
+          src="https://my.spline.design/prismcoin-da75ffc5b85d8e7bca65b97b6166718f/"
+          frameBorder="0"
+          width="100%"
+          height="100%"
+          className="absolute md:top-[-20%] top-[-30%] w-full h-full z-0 "
+        ></iframe>
         <div className="md:pt-[12.5rem] pt-[10rem] md:px-0 px-[1rem] max-w-[1440px]  mx-auto relative z-[100]  w-full  flex flex-col justify-center items-center">
           <motion.div
             variants={fadeIn("down", "tween", 0.6, 1)}
