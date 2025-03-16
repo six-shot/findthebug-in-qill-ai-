@@ -16,27 +16,11 @@ import ProductTab from "./modules/components/tab/ProductTab";
 import { Toaster } from "sonner";
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    const handleLoad = () => {
-      setIsLoading(false);
-    };
 
-    // Wait for images and other assets to load
-    window.addEventListener("load", handleLoad);
-
-    return () => window.removeEventListener("load", handleLoad);
-  }, []);
-
-  if (isLoading) {
-    return (
-      <div className="flex h-screen items-center justify-center bg-black "></div>
-    );
-  }
   return (
     <div className="overflow-hidden">
-      <Toaster position="top-right" />
+
       <Hero />
       {/* <SubHero /> */}
 
